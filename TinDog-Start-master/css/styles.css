@@ -15,6 +15,11 @@ body{
     font-weight: bold;
     color: whitesmoke;
 }
+.header{
+    padding-left: 65px ;
+    padding-right: 65px ;
+    padding-bottom: 30px;
+}
 h1{
     font-family: 'Montserrat-Black';
     font-size: 3.5rem ;
@@ -58,14 +63,20 @@ p{
 }
 /* HEADER IMAGE */
 .header-img{
-    width: 300px;
+    width: 20%;
     transform: rotate(25deg);
+    /* z-index: -1 ; */
+    position: absolute;
+    right : 18%;
 }
 
 /* FEATURES SECTION */
 
 #features{
     padding: 7% 15% ;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
 }
 .features-col{
     text-align :center;
@@ -107,4 +118,12 @@ margin: 20px;
     width : 14%;
     margin: 20px 20px 50px;
 
+}
+
+/* PRICING SECTION */
+#pricing {
+    padding: 100px;
+}
+.pricing-col{
+    padding: 3% 2%;
 }
